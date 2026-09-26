@@ -33,7 +33,7 @@ The video walks through the gameplay, tower logic, enemy logic, networking syste
 ## My Contribution
 
 I was the lead programmer on this project. I built:
-- All of the frontend UI
+- All of the frontend UI Code
 - All of the backend systems
 - All of the networking architecture
 
