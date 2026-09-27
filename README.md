@@ -229,10 +229,6 @@ A 2,000+ line dungeon crawler built as a term project for Carnegie Mellon's 15-1
 - **Combat.** Multiple weapons with their own logic, enemies with idle, walk, attack, damage, and death animations, and health bars.
 - **Rendering performance.** Layered tile sprites are baked into single pre-rendered images with Pillow, cutting 200+ draw calls down to one so the game stays stable.
 
-### VR Firefighter Training Simulation (Unity / C#)
-
-Built from scratch during a university summer research program: a VR training scenario for firefighters, designed around a literature review on VR safety training.
-
 ---
 
 ## Skills
