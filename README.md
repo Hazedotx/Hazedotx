@@ -1,4 +1,4 @@
-#Roblox Gameplay & Systems Engineer
+# Roblox Gameplay & Systems Engineer
 
 Lead programmer on Roblox games with **5M+ visits**, **low five-figure revenue**, and up to **3,000 concurrent players**.
 I build server-authoritative gameplay, networking, and data systems in Luau, with a focus on systems that hold up against exploiters at scale.
