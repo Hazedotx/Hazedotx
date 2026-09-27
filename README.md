@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Hazedotx&fontSize=70&fontAlignY=35&desc=Roblox%20Gameplay%20%26%20Systems%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Hazedotx banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Haze&fontSize=70&fontAlignY=35&desc=Roblox%20Gameplay%20and%20Systems%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Haze banner" />
 </div>
 
 <p align="center">
