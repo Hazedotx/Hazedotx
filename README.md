@@ -3,15 +3,14 @@
 </div>
 
 <p align="center">
-Lead programmer on Roblox games with <b>5M+ visits</b> and up to <b>3,000 concurrent players</b>.<br>
+Lead programmer on Roblox games with <b>12M+ total visits</b> and up to <b>3,000 concurrent players</b>.<br>
 I build server-authoritative gameplay, networking, and data systems in Luau that hold up against exploiters at scale.
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Visits-5M%2B-2ea44f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Total_Visits-12M%2B-2ea44f?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Peak_CCU-3%2C000%2B-1f6feb?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Revenue-Low_Five_Figures-8957e5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Reported_Dupes-0-d73a49?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Revenue-Mid_Five_Figures-8957e5?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -39,7 +38,7 @@ I build server-authoritative gameplay, networking, and data systems in Luau that
 | Into the Backrooms Tower Defense | Killspree |
 | :---: | :---: |
 | [![Backrooms TD showcase](https://img.youtube.com/vi/yrDP3b7QeC4/mqdefault.jpg)](https://www.youtube.com/watch?v=yrDP3b7QeC4) | [![Killspree showcase](https://img.youtube.com/vi/0ZLOrN9r6tU/mqdefault.jpg)](https://www.youtube.com/watch?v=0ZLOrN9r6tU) |
-| Tower defense · Lead Programmer<br>5M+ visits · Top 250 earning game · Front page 1+ month | Multiplayer killer game · Lead Programmer<br>Killer abilities · Hitboxes · Rollback netcode |
+| Tower defense · Lead Programmer<br>5M+ visits · Top 250 earning game · Front page 1+ month | Multiplayer killer game · Lead Programmer<br>5M+ visits · Rollback netcode · Hitboxes |
 | [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/123446017566246/Into-the-Backrooms-TD) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#into-the-backrooms-tower-defense) | [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/82851129405631/KILLSPREE) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#killspree) |
 
 > Production source code for these games is private. These writeups and showcase videos describe the systems I designed and built.
@@ -175,6 +174,8 @@ Manages daily, weekly, lifetime, and clan quests per player. Every quest type sh
 
 **Role:** Lead Programmer · [Play on Roblox](https://www.roblox.com/games/82851129405631/KILLSPREE)
 
+**5M+ visits**
+
 [![Killspree showcase](https://img.youtube.com/vi/0ZLOrN9r6tU/0.jpg)](https://www.youtube.com/watch?v=0ZLOrN9r6tU)
 
 *23-minute showcase covering gameplay, Killer abilities, combat, and networking.*
@@ -200,6 +201,29 @@ I was the lead programmer on Killspree and built the Killers and their abilities
 
 ## Other Projects
 
+### Roblox Sponsored Game Tracker (Java / SQLite)
+
+A real-time market intelligence tool that detects newly sponsored Roblox games the moment their ad campaigns start, before they reach the recommendation algorithm.
+
+- **Early detection.** Logs when each sponsored game is first seen and alerts through a Discord bot, surfacing games at ~10 CCU; several later grew past 10K CCU.
+- **Campaign tracking.** Records how often each game appears over time to estimate campaign intensity, ramp-up, and drop-off, and flags repeat advertisers.
+- **Game analytics.** Tracks CCU, visits, and like ratio over time, with on-demand dashboards and a trending leaderboard by impressions.
+- **Lean infrastructure.** Built in Java with a local SQLite database, sampling sponsor placements every ~10 seconds on a ~$50/month budget and collecting 21,000+ records in its first 24 hours.
+- **Industry trials.** Trialed by multiple Roblox game acquisition companies.
+
+### Global Matchmaking Service (Java / Redis / AWS)
+
+A prototype standalone matchmaking backend that game servers can hand queueing off to, with parties, multiple game modes, and skill-based matching.
+
+- **Redis-backed queues.** Parties live in a Redis hash for constant-time lookup, a time-ordered sorted set tracks queue order, and a sorted set per game mode indexes parties by skill, so every candidate within range comes back from a single range query.
+- **Expanding skill windows.** Ranked modes widen the acceptable skill gap the longer a party waits, trading match quality for queue time.
+- **Pluggable game modes.** Each mode is defined by its team sizes plus a skill calculator, team balancer, and party validator behind shared interfaces. Adding a mode like Ranked 2v2 or Unrated 2v2 means registering one config.
+- **Multi-queueing.** Parties can queue into several modes at once and are removed from all of them the moment they're matched.
+- **Shared clock.** Queue timestamps come from Redis server time, so every matchmaker instance agrees on how long a party has waited.
+- **Infrastructure as code.** Terraform provisions an AWS EC2 instance that pulls the service's Docker image from ECR, plus a managed Redis Cloud database.
+
+*Status: working end to end with integration tests; not yet load-tested at scale.*
+
 ### Procedural Dungeon Crawler (Python)
 
 [View the repo](https://github.com/Hazedotx/My-Python-Project)
@@ -222,7 +246,7 @@ Built from scratch during a university summer research program: a VR training sc
 | Category | |
 | :--- | :--- |
 | **Languages** | ![Luau](https://img.shields.io/badge/Lua%2FLuau-2C2D72?style=flat-square&logo=lua&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square) |
-| **Tools** | ![Roblox Studio](https://img.shields.io/badge/Roblox_Studio-00A2FF?style=flat-square&logo=robloxstudio&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| **Tools** | ![Roblox Studio](https://img.shields.io/badge/Roblox_Studio-00A2FF?style=flat-square&logo=robloxstudio&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
 | **Systems** | Server-authoritative architecture · Real-time networking & rollback netcode · Datastore design & data integrity · Cross-server coordination · Anti-exploit design |
 
 <div align="center">
