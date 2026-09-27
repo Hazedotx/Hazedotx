@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Haze&fontSize=70&fontAlignY=35&desc=Roblox%20Gameplay%20and%20Systems%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Haze banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1224,40:1e3a8a,70:4c1d95,100:881337&fontColor=ffffff&height=220&section=header&text=Haze&fontSize=70&fontAlignY=35&desc=Roblox%20Gameplay%20and%20Systems%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Haze banner" />
 </div>
 
 <p align="center">
@@ -240,5 +240,5 @@ A 2,000+ line dungeon crawler built as a term project for Carnegie Mellon's 15-1
 | **Systems** | Server-authoritative architecture · Real-time networking & rollback netcode · Datastore design & data integrity · Cross-server coordination · Anti-exploit design |
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1224,40:1e3a8a,70:4c1d95,100:881337&fontColor=ffffff&height=120&section=footer" alt="footer" />
 </div>
