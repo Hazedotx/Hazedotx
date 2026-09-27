@@ -3,8 +3,8 @@
 </div>
 
 <p align="center">
-Lead programmer on Roblox games with <b>12M+ total visits</b> and up to <b>3,000 concurrent players</b>.<br>
-I build server-authoritative gameplay, networking, and data systems in Luau that hold up against exploiters at scale.
+Lead programmer on Roblox games with <b>12M+ total visits</b>, peaking at <b>3,000+ concurrent players</b>.<br>
+I build server-authoritative gameplay, networking, and data systems in Luau, designed to hold up against exploiters.
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ I build server-authoritative gameplay, networking, and data systems in Luau that
 </p>
 
 ---
- 
+
 ## Featured Projects
 
 | Into the Backrooms Tower Defense | Killspree |
