@@ -57,14 +57,6 @@ I build server-authoritative gameplay, networking, and data systems in Luau that
 
 Aside from two or three minor exceptions, I built everything under the hood: all backend systems, all networking architecture, and all frontend UI code, across a lobby place and a match place.
 
-### Architecture
-
-- **Two-place structure.** The lobby handles progression (summoning, trading, quests, clans, rewards) and the match place handles gameplay. Players queue on elevator pads and teleport into a match, and a join-data service carries their lobby context into the match server.
-- **Services vs. Systems.** Services each own one domain of player state (currency, tower inventory, item inventory, datastore) and expose a clean API. Systems implement features by composing services; trading, for example, works through the inventory and currency services rather than touching player data directly. This keeps ownership of data clear as the codebase grows.
-- **Shared packages.** Core modules are shared as packages across both places, so the lobby and match servers always run the same data and networking code.
-- **Behavior modules.** Every tower, enemy, map, and in-match summon is its own behavior module plugged into a shared interface, with example templates for new content. Adding a tower means writing one module, not editing the core tower system.
-- **Datastore health gating.** The data layer tracks datastore health, and critical operations (like finalizing a trade) check it before committing.
-
 ### Trading System
 
 The piece I'm proudest of. Item duplication ("duping"), where a trade leaves someone with a copy of an item, is the most common exploit in games like this. The trading system prevents it through several layers:
@@ -194,7 +186,7 @@ I was the lead programmer on Killspree during its core development and built the
 ## Other Roblox Work
 
 - **Server-authoritative codebases** for two studios supporting **1,000+ and 3,000+ concurrent players**, including server-client communication layers built from the ground up.
-- **Systems and gameplay features** for Star Studios IX, Critical Tower Defense, and The Collective Experiment.
+- **Systems and gameplay features** for Star Studios IX, Critical Tower Defense, Into the Backrooms Tower Defense, and The Collective Experiment.
 - **Project management:** coordinated development timelines and feature releases for the teams I led.
 - **Code reviewer:** one of 10 script rankers in a 119K+ member Roblox development community, auditing code and flagging edge cases in live-service systems. Recognized as a top performer and offered the lead ranker role.
 - **Growth:** helped grow games through a content network with 20M+ followers, contributing to 175M+ total visits.
