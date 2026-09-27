@@ -38,8 +38,8 @@ I build server-authoritative gameplay, networking, and data systems in Luau that
 | Into the Backrooms Tower Defense | Killspree |
 | :---: | :---: |
 | [![Backrooms TD showcase](https://img.youtube.com/vi/yrDP3b7QeC4/mqdefault.jpg)](https://www.youtube.com/watch?v=yrDP3b7QeC4) | [![Killspree showcase](https://img.youtube.com/vi/0ZLOrN9r6tU/mqdefault.jpg)](https://www.youtube.com/watch?v=0ZLOrN9r6tU) |
-| Tower defense · Lead Programmer<br>5M+ visits · Top 250 earning game · Front page 1+ month | Multiplayer killer game · Lead Programmer<br>5M+ visits · Rollback netcode · Hitboxes |
-| [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/123446017566246/Into-the-Backrooms-TD) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#into-the-backrooms-tower-defense) | [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/82851129405631/KILLSPREE) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#killspree) |
+| Tower defense · Lead Programmer<br>5M+ visits · Top 250 earning game · Front page 1+ month | Multiplayer killer game · Former Lead Programmer<br>5M+ visits · Rollback netcode · Hitboxes |
+| [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/123446017566246/Into-the-Backrooms-TD) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#into-the-backrooms-tower-defense) | [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#killspree) |
 
 > Production source code for these games is private. These writeups and showcase videos describe the systems I designed and built.
 
@@ -172,7 +172,7 @@ Manages daily, weekly, lifetime, and clan quests per player. Every quest type sh
 
 ## Killspree
 
-**Role:** Lead Programmer · [Play on Roblox](https://www.roblox.com/games/82851129405631/KILLSPREE)
+**Role:** Former Lead Programmer
 
 **5M+ visits**
 
@@ -180,7 +180,9 @@ Manages daily, weekly, lifetime, and clan quests per player. Every quest type sh
 
 *23-minute showcase covering gameplay, Killer abilities, combat, and networking.*
 
-I was the lead programmer on Killspree and built the Killers and their abilities shown throughout the showcase, along with the core gameplay and networking systems underneath them.
+*The showcase reflects the game during my time as lead programmer. The live version has since been changed by a different team.*
+
+I was the lead programmer on Killspree during its core development and built the Killers and their abilities shown throughout the showcase, along with the core gameplay and networking systems underneath them.
 
 - **Killer abilities.** Programmed each Killer character and its ability kit.
 - **Hitbox system.** Built the hitbox system used for combat and gameplay interactions.
