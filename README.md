@@ -1,9 +1,46 @@
-# Roblox Gameplay & Systems Engineer
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Hazedotx&fontSize=70&fontAlignY=35&desc=Roblox%20Gameplay%20%26%20Systems%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Hazedotx banner" />
+</div>
 
-Lead programmer on Roblox games with **5M+ visits**, **low five-figure revenue**, and up to **3,000 concurrent players**.
-I build server-authoritative gameplay, networking, and data systems in Luau, with a focus on systems that hold up against exploiters at scale.
+<p align="center">
+Lead programmer on Roblox games with <b>5M+ visits</b> and up to <b>3,000 concurrent players</b>.<br>
+I build server-authoritative gameplay, networking, and data systems in Luau that hold up against exploiters at scale.
+</p>
 
-**Jump to:** [Into the Backrooms Tower Defense](#into-the-backrooms-tower-defense) · [Killspree](#killspree)
+<p align="center">
+<img src="https://img.shields.io/badge/Visits-5M%2B-2ea44f?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Peak_CCU-3%2C000%2B-1f6feb?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Revenue-Low_Five_Figures-8957e5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Reported_Dupes-0-d73a49?style=for-the-badge"/>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Luau-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
+<img src="https://img.shields.io/badge/Roblox_Studio-00A2FF?style=for-the-badge&logo=robloxstudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Unity-222222?style=for-the-badge&logo=unity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
+
+<p align="center">
+<a href="#into-the-backrooms-tower-defense">Backrooms TD</a> •
+<a href="#killspree">Killspree</a> •
+<a href="#other-roblox-work">Other Roblox Work</a> •
+<a href="#other-projects">Other Projects</a> •
+<a href="#skills">Skills</a>
+</p>
+
+---
+
+## Featured Projects
+
+| Into the Backrooms Tower Defense | Killspree |
+| :---: | :---: |
+| [![Backrooms TD showcase](https://img.youtube.com/vi/yrDP3b7QeC4/mqdefault.jpg)](https://www.youtube.com/watch?v=yrDP3b7QeC4) | [![Killspree showcase](https://img.youtube.com/vi/0ZLOrN9r6tU/mqdefault.jpg)](https://www.youtube.com/watch?v=0ZLOrN9r6tU) |
+| Tower defense · Lead Programmer<br>5M+ visits · Top 250 earning game · Front page 1+ month | Multiplayer killer game · Lead Programmer<br>Killer abilities · Hitboxes · Rollback netcode |
+| [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/123446017566246/Into-the-Backrooms-TD) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#into-the-backrooms-tower-defense) | [![Play](https://img.shields.io/badge/Play-00A2FF?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com/games/82851129405631/KILLSPREE) [![Writeup](https://img.shields.io/badge/Writeup-8957e5?style=flat-square)](#killspree) |
 
 > Production source code for these games is private. These writeups and showcase videos describe the systems I designed and built.
 
@@ -148,3 +185,46 @@ I was the lead programmer on Killspree and built the Killers and their abilities
 - **Hitbox system.** Built the hitbox system used for combat and gameplay interactions.
 - **Rollback netcode.** Implemented rollback netcode using interpolated snapshot buffers for lag compensation and state reconciliation, making gameplay responsive and smooth, especially when playing as the Killer.
 - **Networked gameplay.** Built the underlying systems that keep the showcased gameplay consistent across clients in a multiplayer environment.
+
+---
+
+## Other Roblox Work
+
+- **Server-authoritative codebases** for two studios supporting **1,000+ and 3,000+ concurrent players**, including server-client communication layers built from the ground up.
+- **Systems and gameplay features** for Star Studios IX, Critical Tower Defense, and The Collective Experiment.
+- **Project management:** coordinated development timelines and feature releases for the teams I led.
+- **Code reviewer:** one of 10 script rankers in a 119K+ member Roblox development community, auditing code and flagging edge cases in live-service systems. Recognized as a top performer and offered the lead ranker role.
+- **Growth:** helped grow games through a content network with 20M+ followers, contributing to 175M+ total visits.
+
+---
+
+## Other Projects
+
+### Procedural Dungeon Crawler (Python)
+
+[View the repo](https://github.com/Hazedotx/My-Python-Project)
+
+A 2,000+ line dungeon crawler built as a term project for Carnegie Mellon's 15-112.
+
+- **Procedural generation.** Dungeons are generated with binary space partitioning, which recursively splits the map into chunks, places rooms, and connects them with corridors.
+- **Exploration.** A fog-of-war overworld reveals the map as you explore, with a chance of stumbling into combat dungeons of varying difficulty.
+- **Combat.** Multiple weapons with their own logic, enemies with idle, walk, attack, damage, and death animations, and health bars.
+- **Rendering performance.** Layered tile sprites are baked into single pre-rendered images with Pillow, cutting 200+ draw calls down to one so the game stays stable.
+
+### VR Firefighter Training Simulation (Unity / C#)
+
+Built from scratch during a university summer research program: a VR training scenario for firefighters, designed around a literature review on VR safety training.
+
+---
+
+## Skills
+
+| Category | |
+| :--- | :--- |
+| **Languages** | ![Luau](https://img.shields.io/badge/Lua%2FLuau-2C2D72?style=flat-square&logo=lua&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square) |
+| **Tools** | ![Roblox Studio](https://img.shields.io/badge/Roblox_Studio-00A2FF?style=flat-square&logo=robloxstudio&logoColor=white) ![Unity](https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| **Systems** | Server-authoritative architecture · Real-time networking & rollback netcode · Datastore design & data integrity · Cross-server coordination · Anti-exploit design |
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" alt="footer" />
+</div>
