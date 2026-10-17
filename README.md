@@ -49,7 +49,7 @@ I build server-authoritative gameplay, networking, and data systems in Luau, des
 
 **Role:** Lead Programmer · [Play on Roblox](https://www.roblox.com/games/123446017566246/Into-the-Backrooms-TD)
 
-**5M+ visits** · **Low five-figure revenue** · **Top 250 earning game on Roblox** · **Front page for over a month** · **600K+ hours played** · **130K-member community**
+**5M+ visits** · **Mid five-figure revenue** · **Top 250 earning game on Roblox** · **Front page for over a month** · **600K+ hours played** · **130K-member community**
 
 [![Backrooms TD showcase](https://img.youtube.com/vi/yrDP3b7QeC4/0.jpg)](https://www.youtube.com/watch?v=yrDP3b7QeC4)
 
